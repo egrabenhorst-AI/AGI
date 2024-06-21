@@ -1,7 +1,0 @@
-/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libbzip2_sys-68673062651b4463.rmeta: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-sys-0.1.11+1.0.8/lib.rs
-
-/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libbzip2_sys-68673062651b4463.rlib: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-sys-0.1.11+1.0.8/lib.rs
-
-/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/bzip2_sys-68673062651b4463.d: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-sys-0.1.11+1.0.8/lib.rs
-
-/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-sys-0.1.11+1.0.8/lib.rs:
