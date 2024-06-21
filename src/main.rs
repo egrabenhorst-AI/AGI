@@ -40,7 +40,8 @@ impl Agent {
         *q_value += ALPHA * (reward + GAMMA * best_next_action - *q_value);
     }
 
-    fn run(&mut self, tx: mpsc::Sender<(usize, usize, f64, usize)>, rx: mpsc::Receiver<(usize, usize, f64, usize)>) {
+    fn run(&mut self, tx: mpsc::Sender<(usize, usize, f64, usize)>, rx: Arc<Mutex<mpsc::Receiver<(usize, usize, f64, usize)>>>) {
+        let mut rx = rx.lock().unwrap();
         let mut state = rand::thread_rng().gen_range(0..NUM_STATES);
         for _ in 0..NUM_EPISODES {
             let action = self.select_action(state);
@@ -49,18 +50,25 @@ impl Agent {
             self.update_q_value(state, action, reward, next_state);
             state = next_state;
             let _ = tx.blocking_send((self.id, state, reward, next_state));
+            // Receive messages
+            while let Ok((_, _, _, _)) = rx.try_recv() {
+                // Process received messages if needed
+            }
         }
     }
+    
+    
 }
 
 #[tokio::main]
 async fn main() {
-    let (tx, mut rx) = mpsc::channel(100);
+    let (tx, rx) = mpsc::channel(100);
+    let rx = Arc::new(Mutex::new(rx));
     let agents: Vec<Arc<Mutex<Agent>>> = (0..NUM_AGENTS).map(|id| Arc::new(Mutex::new(Agent::new(id)))).collect();
 
     let handles: Vec<_> = agents.iter().cloned().map(|agent| {
         let tx = tx.clone();
-        let rx = rx.clone();
+        let rx = Arc::clone(&rx);
         task::spawn_blocking(move || agent.lock().unwrap().run(tx, rx))
     }).collect();
 
@@ -70,3 +78,4 @@ async fn main() {
 
     // Gather results or further process the Q-tables as needed
 }
+
