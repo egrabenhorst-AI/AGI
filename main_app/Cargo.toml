@@ -1,0 +1,9 @@
+[package]
+name = "main_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+agent = { path = "../agent" }
+multi_agent = { path = "../multi_agent" }
+rand = "0.8"

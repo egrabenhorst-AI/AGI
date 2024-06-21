@@ -1,0 +1,11 @@
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libbzip2-2c0db3aa2f279725.rmeta: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/mem.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/bufread.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/read.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/write.rs
+
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libbzip2-2c0db3aa2f279725.rlib: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/mem.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/bufread.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/read.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/write.rs
+
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/bzip2-2c0db3aa2f279725.d: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/mem.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/bufread.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/read.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/write.rs
+
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/lib.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/mem.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/bufread.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/read.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bzip2-0.4.4/src/write.rs:

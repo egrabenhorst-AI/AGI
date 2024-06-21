@@ -1,0 +1,10 @@
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libppv_lite86-19b69474b59aee6d.rmeta: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/soft.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/types.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/generic.rs
+
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/libppv_lite86-19b69474b59aee6d.rlib: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/soft.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/types.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/generic.rs
+
+/home/edwardjgrabenhorst/AGI/agi/main_app/target/debug/deps/ppv_lite86-19b69474b59aee6d.d: /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/lib.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/soft.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/types.rs /home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/generic.rs
+
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/lib.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/soft.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/types.rs:
+/home/edwardjgrabenhorst/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ppv-lite86-0.2.17/src/generic.rs:
